@@ -1,0 +1,12 @@
+#messageContainer {
+  background-color: brown;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+}
+
+#submitButton {
+  margin-top: 1rem;
+}

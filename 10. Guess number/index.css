@@ -1,0 +1,73 @@
+h1 {
+  margin-left: 0.5em;
+}
+
+p {
+  margin-left: 0.7em;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+}
+
+.combinationContainer {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.numberHolder {
+  padding-right: 1em;
+}
+
+.inputField {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  font-size: 2.5rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.spinnerPlus,
+.spinnerMinus {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.spinnerPlus:hover,
+.spinnerMinus:hover {
+  background-color: wheat;
+}
+
+.submitButton {
+  margin-top: 2rem;
+  margin-left: 1.1em;
+  margin-bottom: 1rem;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: black;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}

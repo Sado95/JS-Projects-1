@@ -1,0 +1,29 @@
+.tableArea {
+  width: 900px;
+  height: 100px;
+  margin-right: auto;
+  display: flex;
+}
+
+.box {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: red;
+  font-weight: 700;
+}
+
+.box:hover {
+  background-color: white;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

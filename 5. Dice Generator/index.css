@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 350px;
+  height: 350px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cube-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cube-1 {
+  width: 48%;
+  height: 180px;
+  border: 2px solid black;
+}
+
+.cube-2 {
+  width: 48%;
+  height: 180px;
+  border: 2px solid black;
+}
+
+#submitButton {
+  height: 50px;
+  margin-top: 1em;
+}
+
+.ball-row {
+  height: 33%;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.ball-black {
+  background-color: black;
+}
+
+.ball-white {
+  background-color: white;
+}
+
+.ball-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.names {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playerName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+#mainTitle {
+  margin-top: 0;
+}
